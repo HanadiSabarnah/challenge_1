@@ -8,44 +8,43 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tic Tac Toe</title>
     <style>
-             table,td{
-           border: 1px solid black;
-           width: 270px;
-           height: 90px; 
-           text-align: center;
-           text-justify: center;
-           font-size: 50px;
-         }
+body {
+font-family: "Arial", sans-serif;
+}
+table,td{
+border: 1px solid black;
+width: 270px;
+height: 90px; 
+text-align: center;
+text-justify: center;
+font-size: 50px;    
+}
     </style
 </head>
 <body>
-    <h1>Tic Tac Toe!</h1>
-    <h2>Player: <span id="currentPlayer">X</span> </h2>
-    <h2>Result: X: <span id="xScore">0</span> VS O: <span id="yScore">0</span></h2>
-
+  <h1 class="gameTitle">Tic Tac Toe</h1>
     <div class='game'>
-          
-        
-        <table>
-            <tr id="row1">
-              <td class="squares" id="0"></td>
-              <td class="squares" id="1"></td>
-              <td class="squares" id="2"></td>
-            </tr>
-            <tr id="row2">
-              <td class="squares" id="3"></td>
-              <td class="squares" id="4"></td>
-              <td class="squares" id="5"></td>
-            </tr>
-            <tr id="row3">
-              <td class="squares" id="6"></td>
-              <td class="squares" id="7"></td>
-              <td class="squares" id="8"></td>
-            </tr>
-        </table>
-        </div>
+    <table>
+      <tr id="row1">
+        <td class="squares" id="0"></td>
+        <td class="squares" id="1"></td>
+        <td class="squares" id="2"></td>
+      </tr>
+      <tr id="row2">
+        <td class="squares" id="3"></td>
+        <td class="squares" id="4"></td>
+        <td class="squares" id="5"></td>
+      </tr>
+      <tr id="row3">
+        <td class="squares" id="6"></td>
+        <td class="squares" id="7"></td>
+        <td class="squares" id="8"></td>
+      </tr>
 
-        <button class="newGame">New Game</button>
+    </table>
+    </div>
+  <h2 class="gameTitle"></h2>
+  <button class="newGame">New Game</button>
 	
 <script  src="app.js"></script>
 </body>
